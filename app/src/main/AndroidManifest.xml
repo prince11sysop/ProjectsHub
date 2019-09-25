@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appdeveloper.prince.projectshub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/square_ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/circular_ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".computerScience"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".electricalEngineering"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScienceProjectsIdeas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WebsiteIdeas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArtAndCrafts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BlogIdeas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CivilEngineering"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppIdeas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ElectronicsAndCommunication"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MetallurgicalEngineering"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartUpIdeas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SmallBusinessIdeas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
